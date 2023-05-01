@@ -9,7 +9,7 @@ def home():
 
 @app.route("/services/service-2")
 def hello():
-    return "Python App Service-br"
+    return "Python App Service-br2"
 
 
 @app.route("/services/service-2/status")
