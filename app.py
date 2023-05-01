@@ -14,7 +14,7 @@ def hello():
 
 @app.route("/services/service-2/status")
 def status():
-    return "ok"
+    return "Principal Page."
 
 
 if __name__ == "__main__":
