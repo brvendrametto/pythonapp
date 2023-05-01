@@ -9,12 +9,12 @@ def home():
 
 @app.route("/services/service-2")
 def hello():
-    return "This is a sample response from service 2 (Python App Service) v2"
+    return "This is a sample response from service 2 (Python App Service) v2-br"
 
 
 @app.route("/services/service-2/status")
 def status():
-    return "Principal Page."
+    return "ok"
 
 
 if __name__ == "__main__":
